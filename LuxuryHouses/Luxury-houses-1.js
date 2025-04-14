@@ -16,7 +16,7 @@ function goto(page,scroll) {
     window.location.href = `${page}#${scroll}`;
     }
    document.getElementById("drag4").addEventListener('click' ,function(){
-   goto("../online_auction_platform.html","Luxury_houses_in_another_page");
+   goto("../index.html","Luxury_houses_in_another_page");
    }); 
 
 
@@ -172,17 +172,17 @@ function goto(page, scroll) {
   }
 document.getElementById("recomendedProperty").addEventListener("click", function () {
       
-    goto("../online_auction_platform.html", "recomended-properties_in_another_page");
+    goto("../index.html", "recomended-properties_in_another_page");
 });
 document.getElementById("LuxuryHouses").addEventListener("click", function () {
       
-    goto("../online_auction_platform.html", "Luxury_houses_in_another_page");
+    goto("../index.html", "Luxury_houses_in_another_page");
 });
 document.getElementById("AffordableHouses").addEventListener("click", function () {
       
-    goto("../online_auction_platform.html", "Affordable_Houses_in other_page");
+    goto("../index.html", "Affordable_Houses_in other_page");
 });
 document.getElementById("BudgetFriendlyHouses").addEventListener("click", function () {
       
-    goto("../online_auction_platform.html", "Budget_friendly_Houses_in other_page");
+    goto("../index.html", "Budget_friendly_Houses_in other_page");
 });

@@ -48,7 +48,7 @@ if (loginForm) {
         } else {
             e.preventDefault(); 
             alert("Logged in successfully");
-            window.location.href = "../online_auction_platform.html";
+            window.location.href = "../index.html";
             resetFormInputs([loginEmailInput, loginPasswordInput]);
         }
     });
