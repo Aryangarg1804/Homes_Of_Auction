@@ -418,7 +418,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between; 
-  gap: 4rem; 
+  gap: 2rem; 
   flex-wrap: wrap;
 }
 
@@ -453,7 +453,7 @@ main {
 }
 
 .text p {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #0c0c0c;
   padding: 0.5rem 0;
   line-height: 1.5;
