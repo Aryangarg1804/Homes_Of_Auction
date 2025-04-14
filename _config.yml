@@ -2,7 +2,7 @@
 title: Homes Of Auction
 description: Real-time real estate bidding platform
 baseurl: "" # Keep this empty if you're deploying from root
-url: "https://yourusername.github.io/Homes_Of_Auction/online_auction_platform" # Change this to your GitHub Pages URL
+url: "https://yourusername.github.io" # Change this to your GitHub Pages URL
 
 # Build settings
 markdown: kramdown
