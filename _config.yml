@@ -1,0 +1,28 @@
+# Basic site info
+title: Homes Of Auction
+description: Real-time real estate bidding platform
+baseurl: "" # Keep this empty if you're deploying from root
+url: "https://yourusername.github.io" # Change this to your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Include these directories during build
+include:
+  - assets
+
+# Exclude these during build (optional)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Output folder
+destination: ./_site
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
