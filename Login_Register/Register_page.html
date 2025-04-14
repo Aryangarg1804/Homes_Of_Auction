@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../Favicon_of_our_site.png" type="image/x-icon">
+    <link rel="stylesheet" href="Register_page.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Sign Up</h1>
+        <p id="error-message"></p>
+        <form id="form">
+            <div >
+                <label for="firstname-input">
+                    <i class="ri-user-3-line sig_icon"></i>
+                </label>
+                <input type="text" name="firstname" id="firstname-input" placeholder="First name">
+            </div>
+            <div>
+                <label for="email-input">
+                    <i class="ri-mail-line sig_icon"></i>
+                </label>
+                <input type="email" name="email" id="email-input" placeholder="email">
+            </div>
+            <div>
+                <label for="password-input">
+                    <i class="ri-lock-2-line sig_icon"></i>
+                </label>
+                <input type="password" name="password" id="password-input" placeholder="password">
+            </div>
+            <div>
+                <label for="repeat-password-input">
+                    <i class="ri-lock-2-line sig_icon"></i>
+                </label>
+                <input type="password" name="repeat-password" id="repeat-password-input" placeholder="Repeat password">
+            </div>
+            <button type="submit" id="submit">Signup</button>
+
+        </form>
+        <p>Already have an Account ? <a href="login.html">Login</a></p>
+    </div>
+    <script type="text/javascript" src="Register_page.js" defer></script>
+</body>
+</html>
