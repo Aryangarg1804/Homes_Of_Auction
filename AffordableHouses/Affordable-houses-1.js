@@ -20,7 +20,7 @@ function goto(page,scroll) {
    }); 
 
 
-   const targetDate = new Date("2024-12-02T10:32:31").getTime();
+   const targetDate = new Date("2025-04-21T10:32:31").getTime();
 
    setInterval(() => {
      const now = new Date().getTime();

@@ -18,7 +18,7 @@ but.addEventListener("click", () => {
   }
 });
 
-const targetDate = new Date("2025-04-06T23:06:08").getTime();
+const targetDate = new Date("2025-04-25T23:06:08").getTime();
 
 setInterval(() => {
   const now = new Date().getTime();

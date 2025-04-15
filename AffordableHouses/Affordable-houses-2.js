@@ -21,7 +21,7 @@ function goto(page,scroll) {
 
 
 
-   const targetDate = new Date("2024-11-29T03:28:52").getTime();
+   const targetDate = new Date("2025-04-16T03:28:52").getTime();
 
    setInterval(() => {
      const now = new Date().getTime();

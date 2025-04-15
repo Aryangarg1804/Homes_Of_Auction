@@ -22,7 +22,7 @@ document.getElementById("drag2").addEventListener('click' ,function(){
 }); 
 
 
-const targetDate = new Date("2025-04-02T04:24:06").getTime();
+const targetDate = new Date("2025-04-20T04:24:06").getTime();
 
 setInterval(() => {
   const now = new Date().getTime();
